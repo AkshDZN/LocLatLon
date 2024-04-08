@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LOCLATLON</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://unpkg.com/leaflet@1.6.0/dist/leaflet.css" rel="stylesheet"/>
+</head>
+<body>
+
+    <div class="screen">
+        
+        <div class="map">
+
+            <div class="map-render"></div>
+
+            <div class="widgets-container">
+
+                <div class="toggle-container">
+
+                    <div class="widget" id="latitude">
+                        <div class="widget-title">
+                            <img src="Assets/globe.svg" alt="globe" class="icon">
+                            <div class="widget-accent-text">LATITUDE</div>
+                        </div>
+                        <div class="location" id="latex">Loading</div>
+                    </div>
+    
+                    <div class="toggle" onclick="toggler()">
+                        <img src="Assets/toggle.svg" alt="toggle" class="icon">
+                    </div>
+
+                </div>
+    
+                <div class="widget" id="longitude">
+                    <div class="widget-title">
+                        <img src="Assets/globe.svg" alt="globe" class="icon">
+                        <div class="widget-accent-text">LONGITUDE</div>
+                    </div>
+                    <div class="location" id="lotex">Loading</div>
+                </div>
+    
+                <div class="widget" id="location">
+                    <div class="widget-title">
+                        <img src="Assets/location.svg" alt="location" class="icon">
+                        <div class="widget-accent-text">LOCATION</div>
+                    </div>
+                    <div class="location">Illinois, USA</div>
+                </div>
+
+            </div>
+
+            
+
+        </div>
+
+        <div class="creditsbx">
+            <img src="Assets/credits.svg" alt="LOCLATLON by Aksh" class="credits">
+        </div>
+
+
+    </div>
+
+    <script src="https://unpkg.com/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="index.js"></script>
+</body>
+</html>
