@@ -85,11 +85,12 @@ body {
 }
 
 .widget:nth-child(2) {
-    border-radius: 10px;
+    border-radius: 10px 10px 20px 20px;
 }
 
 .widget:nth-child(3) {
     border-radius: 10px 10px 20px 20px;
+    display: none ;
 }
 
 .widget-title {
@@ -125,8 +126,6 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-
-    transition: all cubic-bezier(.27,.09,0,1) 500ms;
 }
 
 .toggle-container {
